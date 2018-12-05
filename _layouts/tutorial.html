@@ -1,7 +1,49 @@
 ---
+layout: tutorial
+permalink: /awesome_tutorial_1
+title: Tutorial 1
+header1: Awesome Sauce Workshops
+header2: Amazing Tutorial 1
+home: https://EduCaballero.github.io/awesome_workshop_1
+description: First tutorial on creating github pages
+author: Edu
+modified: 2018-12-05
 ---
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
+<div itemscope itemtype="http://schema.org/creativeWork">
+    <meta itemprop="genre" content="trainingMaterial">
+    <meta div itemprop="name"> {{ page.header2 }} </div>
+<meta div itemprop="description"> {{ page.description }} </div>
+<meta div>Event type:
+<meta span itemprop="eventType">Workshops and courses</span>
+</div>
+<meta div>Author:
+<div itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <span itemprop="name"> {{ page.author }} </span>
+</div>
+</div>
+<div>Target audience:
+    <span itemprop="audience" itemscope itemtype="http://schema.org/Audience">
+   							<span itemprop="audienceType">Omics</span>
+   							<span itemprop="genre">Omics</span>
+						</span>
+</div>
+<div>Material:
+    <span itemprop="learningResourceType">text</span>,
+    <span itemprop="learningResourceType">exercise files</span>,
+    <span itemprop="learningResourceType">scripts</span>
+</div>
+<div>License:
+    <span itemprop="license">https://creativecommons.org/licenses/by-sa/4.0/</span>
+</div>
+<div> Tutorial as part of workshop
+    <span itemprop="isPartOf"> {{ page.home }} </span>
+</div>
+<div>Last modified:
+    <span itemprop="dateModified"> {{ page.modified }} </span>
+</div>
+</div>
 <head>
     <title>{{ page.title }}</title>
     <meta charset="UTF-8">
