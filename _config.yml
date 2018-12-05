@@ -1,5 +1,15 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
+title: UEB Teaching
+description: Statistics & Bioinformatic Unit teaching website
 show_downloads: true
-google_analytics:
 theme: jekyll-theme-cayman
+url: EduCaballero.github.io
+
+# Social Media
+twitter_username: Bioinfodotca
+github_username:  bioinformatics-ca
+
+# Build settings
+markdown: kramdown
+
+# Google Services
+google_analytics:
